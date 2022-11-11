@@ -1,0 +1,132 @@
+\documentclass[10pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[top=0.5cm, bottom=1cm, left=1.4cm, right=1.5cm]{geometry}
+
+\setlength{\hintscolumnwidth}{2.8cm} % Largeur de la colonne pour les dates
+\usepackage[utf8]{inputenc}% encodage, à modifier selon vos habitudes
+\usepackage[french]{babel}% pour un document en français.
+\usepackage{helvet}
+\usepackage{graphicx}
+
+%-----------------------------------------------------
+% Une entête classique
+\title{French DevOps - 3.5 years of experience \\  Looking for a new opportunity abroad}
+\firstname{Paul}
+\familyname{Bourhis}
+\extrainfo{\href{https://www.linkedin.com/in/paul-bourhis-375557153/}{Linkedin link} 
+	 \\ 27 years old }
+\email{paul\_bourhis@yahoo.com}
+\mobile{+33 6 99 29 45 22}
+\address{49-51 Rue de Paris}{92110 Clichy - FRANCE}
+
+\photo[54pt][0.8pt]{id1}
+%-----------------------------------------------------
+\begin{document}
+\maketitle
+%-----------------------------------------------------
+\vspace{-3\baselineskip}
+%-----------------------------------------------------
+\section{Skills}
+
+\subsection{DevOps}
+\cvcomputer {Cloud:}{Azure (Certification Az-900) , AWS} { Monitoring: }
+		{Logstash, Elasticsearch, Grafana, \\ Promotheus} 
+\cvcomputer {Versioning:}{Git, Perforce}
+		{ CI: }{Jenkins}
+\cvcomputer { Administration: }{Ansible, Terraform}
+		{ Container: }{Docker, Kubernetes} 
+
+\subsection{Programming}
+\cvcomputer { Language: }{Python, C/C++, Bash, Groovy, \LaTeX }
+		{Data science: }{ Data analysis with pandas \newline Advanced digital signal processing }
+
+\cvcomputer { Other: }{UI design with the Qt framework}
+		{OS: }{Linux (Red Hat, Ubuntu)} 
+
+\subsection{Languages}
+\cvcomputer{English:}{Fluent and professional (TOEIC: 915)}{Spanish:}{Level C1 (several months spent in Spain)}
+
+
+%-----------------------------------------------------
+
+\section{Relevent experience}
+
+\cventry{03/2021 - actual \\\includegraphics[width=0.7\hintscolumnwidth]{murex.png}}
+{DevOps - Python Developer (1.5 years) }
+{MUREX}
+{\textsc{Paris}}
+{}
+{Developer and Devops in the MACS software team.
+\begin{itemize}
+\item CI Chanpion in a team of 10 developers
+\item SRE on web services hosting the main C++ solution
+\item Implementation of a stack of monitoring for services and a server cluster
+\item Administration of Linux remote servers
+\item Containerization of several application with Docker
+\end{itemize}
+}
+
+\cventry{09/2019 - 02/2022 \includegraphics[trim=0 1 0 -6cm , width=0.7\hintscolumnwidth]{thaleslogo}}
+{Embedded Software Engineer (2 years)}{THALES SIX GTS}
+{\textsc{Paris}}
+{}
+{C++ Development of software components for SCORPIONS vehicles
+\begin{itemize}
+\item Implementation of data exchange between the vehicle and its equipment (C++)
+\item Migration of the build chain to Cmake
+\item Development of unit and functional tests (Jenkins and python)
+\item Building of the test platform, and setting it up with cmake and our IDE
+\end{itemize}
+Development of a GUI intended to pilot CONTACT radio products
+\begin{itemize}
+\item Implementation of an SNMP client-server
+\item Development of the GUI in Python with Qt tools
+\end{itemize}
+}
+
+\cventry{04/2018  \\\includegraphics[width=0.5\hintscolumnwidth]{upv}}
+{Internship Assistant Engineer (3 month)}{UNIVERSITAT POLITECNICA DE VALENCIA }
+{}{}
+{ C development of a robotic arm based on a STM32 board
+\begin{itemize}
+\item{Implementation of incremental encoders between the motors and the STM32 board}
+\item{Management of sending and receiving data via UART link}
+\item{Acquisition and processing of data by a python algorithm}
+\end{itemize}
+}
+
+
+\cventry{05/2017}{Worker internship (2 months)}{EDISON ELECTRONICS}
+{\textsc{Badalona (Spain)}}{}
+{ As a worker in a PCB manufacturing company, I helped in the design and production of electronic cards.
+}
+
+
+\section{Education}
+
+\cventry{2016 - 2019 \\\includegraphics[width=0.6 \hintscolumnwidth]{ensea2}}{Graduate Electrical Engineering, IT and Telecommications Shool}{at ENSEA}{\textsc{France}}{}{
+Major:  Embedded Systems \newline Option: Computer, Automation and Internet of things }
+
+\cventry{2013 - 2016}{Preparatory class PTSI-PT}{Lycée A.R-LESSAGE}{\textsc{France}}{}{Three-year undergraduate intensive course preparing for the competitive entrance examinations to French top-level "Grandes Écoles".
+\newline Main subjects: Physics, Mathematics and Computer-science}
+
+%-----------------------------------------------------
+
+\section{Projects and activities}
+
+\cventry{2022}{Project resume}{(Terraform / Azure)}{}{Provides a linux dev environment via terraform}{\url{https://github.com/Pyodin/azure-terraform-project-resume}}
+
+\cventry{2015 - 2019}{Private teacher}{Mathematics and Physics}{}{}{}
+
+\cventry{2018 - 2019}{University Project}{ENSEA}{Cross-development on a Linux i.MX6 card}{}{
+\begin{itemize}
+\item Configuration of a Linux kernel with Yocto
+\item Acquisition and data transfer from an inertial unit by SPI, CAN and Wi-Fi link
+\end{itemize}
+}
+
+\cventry{2017 - 2018}{Associations}{ENSEA}{}{Student board member, and organizer of the Integration Weekend}{}
+
+
+%-----------------------------------------------------
+\end{document}
